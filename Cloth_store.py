@@ -9,5 +9,4 @@ def solution(price):
     else:
         answer = price
     print(answer)
-    
 solution(100010)
