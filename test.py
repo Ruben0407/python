@@ -1,8 +1,8 @@
-answer = 0
-a = 0
-n = 12
-for i in range(n + 1):
-    a = i
-    print(i)
-    if 12 % i == 0:
-        print(i)
+def find_gcd(x, y):
+        while(y):
+            x, y = y, x % y
+            print(x)
+            
+find_gcd(10, 8)
+
+#1 2 3 4 
