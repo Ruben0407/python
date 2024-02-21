@@ -21,3 +21,11 @@
 
 
 # solution(23)
+age = 23
+answer = ''
+list = ["a","b","c","d","e","f","g"]
+
+
+for i in str(age):
+    print(type(age))
+    answer += list[int(i)]
