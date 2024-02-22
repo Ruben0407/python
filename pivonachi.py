@@ -1,4 +1,4 @@
-def solution(n):
+def solution(n): #지피티가 도와줌
     answer = 0
     n
     if n <= 0:
@@ -13,4 +13,4 @@ def solution(n):
             a, b = b, a + b
         return(b)
 
-print(solution(5))
+print(solution(3))
