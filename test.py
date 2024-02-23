@@ -7,6 +7,5 @@
 #     print(spl_a)
 # # spl_a = str_a.split(',')
 
-a = 324
-list_a = [int(i) for i in str(a)]
-print(list_a)
+a = [1, 5, 2, 6, 3, 7, 4]
+print(a[2: 5])
