@@ -1,11 +1,12 @@
-# a = 324
-# str_a = str(a)
-# print(type(a))
-# print(a)
-# int(i) = 0
-# for i in str_a:
-#     print(spl_a)
-# # spl_a = str_a.split(',')
+a = [3, 30, 34, 5, 9]	
+b = ''.join(map(str, a))
+c = []
+print(b)
+for i in range(len(a)):
+    # b = ''.join(map(str, a))
+    c.append(b[i])
 
-a = [1, 5, 2, 6, 3, 7, 4]
-print(a[2: 5])
+    # for z in range(len(a)):
+        # c.append(b)
+print(c)
+# print(type(a))
